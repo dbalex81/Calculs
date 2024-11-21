@@ -29,6 +29,7 @@ namespace Calculs
                 Console.Write("Choix :                          ");
                 choix = Console.ReadLine();
 
+
                 // saisie des valeurs
                 val1 = rand.Next(1, 10);
                 val2 = rand.Next(1, 10); 
@@ -97,7 +98,7 @@ namespace Calculs
                     case "0": //demande de fin de programme
                         break;
                     default:
-                        Console.WriteLine("Erreur de saisie");
+                        Console.WriteLine("Erreur");
                         break;                       
                 }
             }
